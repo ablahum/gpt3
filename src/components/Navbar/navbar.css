@@ -3,6 +3,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 2rem 6rem;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(15px);
 }
 
 .navbar__link {
@@ -62,6 +65,7 @@
 }
 
 .navbar__menu__wrapper {
+  backdrop-filter: blur(15px);
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
