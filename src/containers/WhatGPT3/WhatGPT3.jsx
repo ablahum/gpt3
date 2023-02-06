@@ -1,4 +1,4 @@
-import './what-gpt-3.css'
+import './what-gpt3.css'
 
 const WhatGPT3 = () => {
   return <div>WhatGPT3</div>

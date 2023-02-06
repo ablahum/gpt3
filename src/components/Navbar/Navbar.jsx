@@ -55,12 +55,12 @@ const Menu = ({ toggleMenu, setToggleMenu }) => (
     )}
 
     {toggleMenu && (
-      <div className='navbar-menu__wrapper scale-up-center'>
-        <div className='navbar-menu__wrapper-links'>
+      <div className='navbar__menu__wrapper scale-up-center'>
+        <div className='navbar__menu__links'>
           <Links />
         </div>
 
-        <div className='navbar-menu__wrapper-sign'>
+        <div className='navbar__menu__sign'>
           <Signs />
         </div>
       </div>
@@ -73,22 +73,22 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <div className='navbar-logo'>
+      <div className='navbar__logo'>
         <img
           src={logo}
           alt='logo'
         />
       </div>
 
-      <div className='navbar-link'>
+      <div className='navbar__link'>
         <Links />
       </div>
 
-      <div className='navbar-sign'>
+      <div className='navbar__sign'>
         <Signs />
       </div>
 
-      <div className='navbar-menu'>
+      <div className='navbar__menu'>
         <Menu
           toggleMenu={toggleMenu}
           setToggleMenu={setToggleMenu}
