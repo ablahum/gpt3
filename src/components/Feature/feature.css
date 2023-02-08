@@ -37,7 +37,6 @@
 
 .feature__text p {
   font-family: var(--font-family);
-  line-height: 1.5rem;
   color: var(--color-text);
 }
 
@@ -48,9 +47,5 @@
 
   .feature__title h1 {
     font-size: 1.5rem;
-  }
-
-  .feature__text p {
-    line-height: 20px;
   }
 }
