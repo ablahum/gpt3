@@ -22,7 +22,6 @@
 .header__content p {
   font-family: var(--font-family);
   font-weight: 400;
-  line-height: 1.5rem;
   color: var(--color-text);
   margin-top: 1.5rem;
 }
