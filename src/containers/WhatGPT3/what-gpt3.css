@@ -36,10 +36,9 @@
 
 .whatgpt3__heading {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 4rem 0 2rem;
+  margin: 4rem 0;
 }
 
 .whatgpt3__heading h1 {
@@ -59,8 +58,7 @@
 .whatgpt3__features {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  margin-top: 2rem;
+  justify-content: center;
 }
 
 .whatgpt3__features .feature {
@@ -79,7 +77,7 @@
   .whatgpt3__heading {
     flex-direction: column;
     align-items: flex-start;
-    margin: 3rem 0 1rem;
+    margin: 3rem 0;
   }
 
   .whatgpt3__heading p {
