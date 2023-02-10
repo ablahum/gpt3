@@ -31,19 +31,19 @@
 
 .possibility__content h4:last-child {
   color: var(--color-subtext);
+  margin-top: 1rem;
 }
 
 .possibility__content h1 {
   font-family: var(--font-family);
   font-weight: 800;
   font-size: 2.5rem;
-  margin: 2rem 0 1rem;
+  margin: 1rem 0;
 }
 
 .possibility__content p {
   font-family: var(--font-family);
   color: var(--color-text);
-  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 1050px) {
@@ -52,11 +52,11 @@
   }
 
   .possibility__image {
-    margin: 1rem 0;
+    margin: 0;
   }
 
   .possibility__content {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 }
 

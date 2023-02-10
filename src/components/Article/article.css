@@ -1,0 +1,45 @@
+.article {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-footer);
+}
+
+.article__image {
+  width: 100%;
+  height: 100%;
+  background: var(--color-bg);
+}
+
+.article__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.article__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  height: 100%;
+}
+
+.article__content p {
+  font-family: var(--font-family);
+  color: #fff;
+}
+
+.article__content h3 {
+  font-family: var(--font-family);
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fff;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.article__content p:last-child {
+  cursor: pointer;
+  font-weight: 700;
+}
