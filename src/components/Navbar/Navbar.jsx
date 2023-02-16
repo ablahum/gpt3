@@ -1,8 +1,6 @@
 import { useState } from 'react'
-import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBarsStaggered } from '@fortawesome/free-solid-svg-icons'
 
 import logo from '../../assets/logo.svg'
 import './navbar.css'
@@ -41,22 +39,21 @@ const Signs = () => (
   </>
 )
 
-const element = <FontAwesomeIcon icon={faBarsStaggered} />
-
 const Menu = ({ toggleMenu, setToggleMenu }) => (
   <>
     {toggleMenu ? (
-      <RiCloseLine
-        color='#fff'
-        size={27}
+      <FontAwesomeIcon
+        icon='fa-solid fa-xmark'
+        size='2x'
+        inverse
         onClick={() => setToggleMenu(false)}
       />
     ) : (
-      <RiMenu3Line
-        color='#fff'
-        size={27}
-        // onClick={() => setToggleMenu(true)}
-        onClick={() => console.log(element)}
+      <FontAwesomeIcon
+        icon='fa-solid fa-bars-staggered'
+        size='xl'
+        inverse
+        onClick={() => setToggleMenu(true)}
       />
     )}
 
@@ -89,8 +86,6 @@ const Navbar = () => {
       <div className='navbar__link'>
         <Links />
       </div>
-
-      <FontAwesomeIcon icon={faBarsStaggered} />
 
       <div className='navbar__sign'>
         <Signs />
