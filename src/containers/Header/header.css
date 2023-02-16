@@ -71,6 +71,7 @@
 .header__people img {
   width: 181.79px;
   height: 38px;
+  object-fit: cover;
 }
 
 .header__people p {
