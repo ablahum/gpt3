@@ -17,9 +17,11 @@ function App() {
 
       <Possibility />
 
-      <CTA />
+      <div className='gradient__bg'>
+        <CTA />
 
-      <Blog />
+        <Blog />
+      </div>
 
       <Footer />
     </div>
